@@ -20,11 +20,14 @@ export default function Navbar() {
             </nav>
           </div>
           <div className="hidden md:flex gap-3">
-            <Link href="/" className="text-sm text-slate-600">
+            <Link href="https://github.com/Shadrach-stack" className="text-sm text-slate-600">
               GitHub
             </Link>
-            <Link href="/" className="text-sm text-slate-600">
+            <Link href="https://www.linkedin.com/in/shadrach-obaah/" className="text-sm text-slate-600">
               LinkedIn
+            </Link>
+            <Link href="https://www.behance.net/shadrach_obaah" className="text-sm text-slate-600">
+              Behance
             </Link>
           </div>
           <button
