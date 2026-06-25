@@ -85,27 +85,42 @@ export default function ProjectCard({
             <Link
               href={github}
               target="_blank"
-              className="text-sm text-slate-600 hover:text-slate-900 transition"
+               className="
+  text-sm font-medium text-sky-600
+  underline underline-offset-4
+  hover:text-sky-700
+  transition
+"
             >
               GitHub
             </Link>
           )}
 
           {live && (
-            <Link
-              href={live}
-              target="_blank"
-              className="text-sm text-slate-600 hover:text-slate-900 transition"
-            >
-              Live
-            </Link>
-          )}
+  <Link
+    href={live}
+    target="_blank"
+    className="
+  text-sm font-medium text-sky-600
+  underline underline-offset-4
+  hover:text-sky-700
+  transition
+"
+  >
+    Live
+  </Link>
+)}
 
           {behance && (
             <Link
               href={behance}
               target="_blank"
-              className="text-sm text-slate-600 hover:text-slate-900 transition"
+               className="
+  text-sm font-medium text-sky-600
+  underline underline-offset-4
+  hover:text-sky-700
+  transition
+"
             >
               Behance
             </Link>
